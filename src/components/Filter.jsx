@@ -13,12 +13,12 @@ const Filter = ({ filter, setFilter, setSort }) => {
         </div>
         <div>
           <p>Alphabetical order</p>
-          <button onClick={() => setSort("Asc")} >Asc</button>
+          <button onClick={() => setSort("Asc")}>Asc</button>
           <button onClick={() => setSort("Desc")}>Desc</button>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Filter
+export default Filter;
